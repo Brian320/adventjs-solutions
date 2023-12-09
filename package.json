@@ -1,0 +1,27 @@
+{
+  "name": "adventjs-solutions",
+  "version": "1.0.0",
+  "description": "A collection of solutions for the adventjs challenges created by midudev",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian320/adventjs-solutions.git"
+  },
+  "keywords": [
+    "adventjs"
+  ],
+  "author": "Brian Jorda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian320/adventjs-solutions/issues"
+  },
+  "homepage": "https://github.com/Brian320/adventjs-solutions#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7",
+    "vitest": "^1.0.2"
+  }
+}
