@@ -1,25 +1,26 @@
-In Santa's workshop, a **mischievous** elf has been playing around with the gift production line, adding or removing an unplanned step.
+In 🎅 Santa's workshop, **some Christmas messages have been written in a peculiar way**: the words within the brackets must be read backwards.
 
-You have the original sequence of original manufacturing steps and the modified modified sequence that may include an extra step or be missing a step.
+**Santa needs these messages to be correctly formatted**. Your task is to write a function that takes a string and reverses the characters within each pair of parentheses, removing the parentheses as well.
 
-Your task is to **write a function that identifies and returns the first extra step that was added or removed in the manufacturing chain**. If there is no difference between the sequences, return an empty string.
+However, bear in mind that there may be nested parentheses, so you should reverse the characters in the correct order.
 
 ```javascript
-const original = "abcd";
-const modified = "abcde";
-findNaughtyStep(original, modified); // 'e'
+const a = decode("hola (odnum)");
+console.log(a); // hola mundo
 
-const original = "stepfor";
-const modified = "stepor";
-findNaughtyStep(original, modified); // 'f'
+const b = decode("(olleh) (dlrow)!");
+console.log(b); // hello world!
 
-const original = "abcde";
-const modified = "abcde";
-findNaughtyStep(original, modified); // ''
+const c = decode("sa(u(cla)atn)s");
+console.log(c); // santaclaus
+
+// Step by step:
+// 1. Reverse the nested -> sa(ualcatn)s
+// 2. Reverse the remaining one -> santaclaus
 ```
 
-Please, keep in mind:
+Notes:
 
--There will always be one different step or none.
--The modification can occur anywhere in the string.
--The original steps could be empty
+-The input strings will always be well formed with parentheses that match correctly, you do not need to validate them.
+-There should not be any parentheses left in the final message.
+-The maximum nesting level is 2.

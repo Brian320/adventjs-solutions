@@ -1,4 +1,3 @@
-import { expect } from "vitest";
 import findNaughtyStep from "./solution";
 
 test("findNaughtyStep should return type string", () => {
