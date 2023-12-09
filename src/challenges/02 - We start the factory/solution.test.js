@@ -1,5 +1,4 @@
 import manufacture from "./solution";
-import { test, expect } from "vitest";
 
 test("manufacture should return type array", () => {
   const result = manufacture(["tren", "oso", "pelota"], "tronesa");

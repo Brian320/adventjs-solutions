@@ -1,5 +1,4 @@
 import findFirstRepeated from "./solution";
-import { test, expect } from "vitest";
 
 test("findFirstRepeated should return type number", () => {
   const result = findFirstRepeated([2, 1, 3, 5, 3, 2]);
