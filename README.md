@@ -1,6 +1,6 @@
 # My AdventJS solutions 🎅🎄
 
-## 25 programming challanges • <a href="https://adventjs.dev">adventJS</a> 🚀 [![adventJS](https://img.shields.io/badge/adventJS-fbbf24?style=flat-square&logo=JavaScript&logoColor=000000)](https://adventjs.dev)
+## 25 programming challanges • <a href="https://adventjs.dev" target="_blank">adventJS</a> 🚀 [![adventJS](https://img.shields.io/badge/adventJS-fbbf24?style=flat-square&logo=JavaScript&logoColor=000000)](https://adventjs.dev)
 
 <p> 
   <img src=https://i.imgur.com/mOUN7uE.png>
