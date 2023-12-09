@@ -1,4 +1,4 @@
-function decode(message: string) {
+function decode(message: string): string {
   let decodedMessage = message;
   const regex = /\(([^()]*)\)/g;
   const reverseValueFn = (_, value: string) =>
