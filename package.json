@@ -1,7 +1,7 @@
 {
   "name": "adventjs-solutions",
   "version": "1.0.0",
-  "description": "A collection of solutions for the adventjs challenges created by midudev",
+  "description": "A collection of my solutions for the adventjs challenges created by midudev",
   "main": "index.js",
   "scripts": {
     "test": "vitest"
